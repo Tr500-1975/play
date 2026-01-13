@@ -209,8 +209,7 @@ class Compressor:
                                if addon_xml_exists:
                                        # now addon.xml has been read, scrape version number from it. we need this when naming the zip (and if it exists the changelog)
                                        self._read_version_number()
-                                       print 'Create compressed addon release for -- ' + self.addon_name + '  v' + self.addon_version_number
-                                       self._create_compressed_addon_release()
+                                       print 'Analizando: ' + str(self.addon_name) + ' version ' + str(self.addon_version_number)
 
    def _get_zipped_addon_path( self ):
        # get name of addon zip file. returns False if not found.
