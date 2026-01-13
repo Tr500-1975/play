@@ -305,7 +305,7 @@ class Compressor:
                               header = re.sub( "'",'', header )
 
                               # scrape the version number from the line
-                              self.addon_version_number = (( re.compile( "version\=(.+?) " , re.DOTALL ).findall( header ) )[0]).strip()
+                              self.addon_version_number = (( re.compile( r"version\=([^\s\>]+)", re.DOTALL ).findall( header ) )[0]).strip()
 
 
 
