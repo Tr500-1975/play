@@ -549,7 +549,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 
-<addon id="script.module.pysocks" name="PySocks" version="1.7.0+matrix.1" provider-name="anorov">
+<addon id="script.module.pysocks" name="PySocks" version="1.7.0" provider-name="anorov">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
