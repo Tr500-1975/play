@@ -368,7 +368,7 @@ In addition to what livestreams allowed you to do, you can now,
   </extension>
 </addon>
 
-<addon id="script.module.chardet" name="chardet" version="5.1.0" provider-name="Character Encoding Detector">
+<addon id="script.module.chardet" name="chardet" version="4.0.0+matrix.1" provider-name="Character Encoding Detector">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -378,7 +378,7 @@ In addition to what livestreams allowed you to do, you can now,
     <description lang="en_GB">The Universal Character Encoding Detector</description>
     <license>LGPL-2.1</license>
     <platform>all</platform>
-    <website>https://chardet.readthedocs.io/</website>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
     <source>https://github.com/chardet/chardet</source>
     <assets>
       <icon>resources/icon.png</icon>
