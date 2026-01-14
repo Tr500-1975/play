@@ -485,9 +485,9 @@ In addition to what livestreams allowed you to do, you can now,
 	</extension>
 </addon>
 
-<addon id="script.module.urllib3" name="urllib3" version="2.2.3+matrix.1" provider-name="urllib3">
+<addon id="script.module.urllib3" name="urllib3" version="1.26.16+matrix.1" provider-name="urllib3">
   <requires>
-    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="xbmc.python" version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
