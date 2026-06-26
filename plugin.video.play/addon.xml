@@ -21,8 +21,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
-Actualizado stream		
-		
 Automantenimiento extra		
 		
 Corregido inicio.py		
