@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.7.9" provider-name="El puto amo es solo mi antecesor">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.8.0" provider-name="El puto amo es solo mi antecesor">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.six" />
@@ -21,6 +21,11 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
+Play mas fluido,
+Actualizacion de skin, 
+Ventana nueva en sagas,
+Reorganizacion del modulo. 		
+		
 Trasiciones mas directas y rapidas, addon más rápido		
 		
 Te avisa de la fecha de estreno de películas Españolas		
