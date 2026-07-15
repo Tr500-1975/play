@@ -802,7 +802,7 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 
-<addon id="skin.xonfluence_O" version="0.0.4" name="Xonfluence_O" provider-name="Helly, Crybaby">
+<addon id="skin.xonfluence_O" version="0.0.5" name="Xonfluence_O" provider-name="Helly, Crybaby">
   <requires>
     <import addon="xbmc.gui" version="5.17.0"/>
 	<import addon="service.library.data.provider" version="0.3.2"/>
