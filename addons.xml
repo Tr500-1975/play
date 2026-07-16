@@ -43,7 +43,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.8.4" provider-name="El puto amo es solo mi antecesor">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.8.5" provider-name="El puto amo es solo mi antecesor">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.six" />
@@ -65,7 +65,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
-Secciones: Series, Pelis Españolas y Topuria, no es que sean fluidas es que al cargarlas vuelan de verdad.
+La carga no es que sea fluida es que vuelan de verdad, To Se Pe Es
 
 Play mas fluido,
 Actualizacion de skin,
