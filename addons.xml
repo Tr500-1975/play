@@ -43,12 +43,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.9.2" provider-name="El puto amo es solo mi antecesor">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.9.3" provider-name="El puto amo es solo mi antecesor">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
-		<import addon="repository.loop"/>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
 		<import addon="script.module.requests"/>
 		<import addon="script.embuary.info"/>
@@ -66,8 +65,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
-Replays ordenados
-
 Replays reforzados
 
 Ahora con Replays
