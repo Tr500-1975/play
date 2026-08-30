@@ -337,6 +337,30 @@ In addition to what livestreams allowed you to do, you can now,
 	</extension>
 </addon>
 
+<addon id="repository.loop" name="[COLORlime]Loop[/COLOR] Repository" version="3.0.4" provider-name="The Loop">
+	<extension point="xbmc.addon.repository" name="Loop Repository">
+		<dir>
+			<info compressed="false">https://loopaddon.uk/zips19/addons.xml</info>
+	<checksum>https://loopaddon.uk/zips19/addons.xml.md5</checksum>
+			<datadir zip="true">https://loopaddon.uk/zips19/</datadir>
+		</dir>
+		<dir>
+      <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<genre></genre>
+	</extension>
+</addon>
+
     <addon id="repository.zero" name="Z3R0 Repository" version="1.0.0" provider-name="Z3R0">
         <extension point="xbmc.addon.repository" name="Z3R0 Repository">
 		<dir>
@@ -625,63 +649,6 @@ v0.5.9 (2022-03-22)
   </extension>
 </addon>
 
-<addon id="script.module.jetextractors" name="JetExtractors" version="3.3.18" provider-name="THE TEAM">
-	<requires>
-		<import addon="script.module.requests" />
-		<import addon="script.module.beautifulsoup4" />
-		<import addon="script.module.dateutil" />
-		<import addon="script.module.soupsieve" />
-		<!-- <import addon="script.module.pyairtable" /> -->
-		<import addon="script.module.pyamf" />
-		<import addon="script.module.pycryptodome" optional="true" />
-		<import addon="script.module.pyjsparser" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Jet Extractors</summary>
-		<description lang="en">Jet Extractors</description>
-		<disclaimer lang="en"></disclaimer>
-		<license>MIT</license>
-		<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
-<!-- ########################################### -->
-<!-- #     GIVE CREDIT WHERE CREDIT IS DUE     # -->
-<!-- #                                         # -->
-<!-- #      THE TEAM JETEXTRACTOR              # -->
-<!-- #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+. =%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-     .%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%:  .:::  .%%- =%%%%%%+.      :%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+             ..=%=        .%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%+ .%%%%#.                     *%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%+ :#%%%%%%%%%=.               -%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%#.=#%%%%%%%%%%%%%%=            =%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%:+%%%%%. *%%%%%%%%%%+           =%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%. =%%%%%%%%%%%:              =%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%= +%%%%%###%%%+      ++        -%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%*.%%%%%%%.          :%%%%%-     .#%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%%=      +%%%%%%%%+      .#%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=   .%%%%%%%%%*    =%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=   *%%%%%%%%%*    %%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=.#%%%%%%%%%%%%.  #%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+ -%%%%##%.:%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%+ .#%%%#. -%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*.:#%%%%- =%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.+%%%%%+ *%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*#%%%%%#.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
--->
-
 <addon id="script.module.kodi-six"
        name="Kodi Six"
        version="0.1.3.1"
@@ -702,48 +669,6 @@ v0.5.9 (2022-03-22)
     </assets>
     <news>0.1.3:
 - Fix non-UTF-8 byte string decoding in Python 2.</news>
-  </extension>
-</addon>
-
-<addon id="script.module.pyamf"
-       name="PyAMF"
-       version="0.8.10+matrix.4"
-       provider-name="The Py3AMF Project">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.defusedxml" version="0.6.0+matrix.1"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
-    <description lang="en_GB">The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
-AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
-    <license>MIT</license>
-    <platform>all</platform>
-	  <website>https://pypi.org/project/Py3AMF/</website>
-	  <source>https://github.com/StdCarrot/Py3AMF</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
-</addon>
-
-<addon id="script.module.pyjsparser" name="pyjsparser" version="3.0.0" provider-name="Addons4Kodi">
-  <requires>
-    <!-- <import addon="xbmc.python" version="3.0.0" /> -->
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Pure Python JavaScript Translator/Interpreter</summary>
-    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
-    <platform>all</platform>
-    <language></language>
-    <license>MIT</license>
-    <forum></forum>
-    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
-    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
-    <email></email>
   </extension>
 </addon>
 
